@@ -12,7 +12,7 @@ import (
 	"github.com/qwark97/interview/store"
 )
 
-func TestMain(m *testing.T) {
+func TestMain(m *testing.M) {
 	// given
 	var i int
 	var link *string
